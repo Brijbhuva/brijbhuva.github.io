@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>Brijesh Bhuva</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/basics.css">
+<script src="js/basics.js"></script>
+
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-indigo w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+
+  <div class="w3-container">
+  	<img id="headshot" class="w3-round" src="./images/brij.jpg" alt="Alannah Oleson profile picture">
+    <h3 id="sidebar_name"><b>BRIJESH BHUVA</b></h3>
+    <p id="sidebar_info"><b>Oregon state University</b>
+    	<br/>
+    	brijbhuva@gmail.com
+  </div>
+
+  <hr style="width:100%;border:1px solid white;margin:auto;margin-bottom:32px;" class="w3-round">
+
+  <div class="w3-bar-block">
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">About</a> 
+    <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Work Experiance</a> 
+    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Projects</a>
+    <a href="#pubs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Publications</a> 
+   <!-- <a href="#awards" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Certifications</a>  -->
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Contact</a>
+  </div>  
+
+  <!-- div class="w3-bar-block">
+	 <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Design + Photography</a>
+  </div -->
+
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-indigo w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-indigo w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Brijesh Bhuva</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="about">
+    <h1 class="w3-jumbo"><b> Programming <span style="color: #3f51b5">+</span> <br>Software Engineering <span style="color: #3f51b5">+</span><br> Human Computer Interaction.</b></h1>
+
+    <br/>
+
+
+  <!-- About -->
+    <h1 class="w3-xxxlarge w3-text-indigo"><b>About.</b></h1>
+    <hr style="width:50px;border:5px solid indigo" class="w3-round">
+    	<p>I'm a Master's student in Computer Science advised by <a class="w3-text-blue w3-hover-text-blue-gray" href="http://web.engr.oregonstate.edu/~burnett/" target="_blank">Prof. Margaret Burnett</a>, in the <a class="w3-text-blue w3-hover-text-blue-gray" href="https://eecs.oregonstate.edu/" target="_blank">Electrical Engineering & Computer Science department at Oregon State University. </a></p>
+    	<p>Quick links: 
+	    	<a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/Brijesh_Bhuva.pdf" target="_blank">My CV (updated December 2019)</a>
+	    	| <a class="w3-text-blue w3-hover-text-blue-gray" href="https://www.linkedin.com/in/brijbhuva/" target="_blank">Linkedin</a> 
+	    	| <a class="w3-text-blue w3-hover-text-blue-gray" href="https://github.com/brijbhuva" target="_blank">GitHub</a> 	
+    	</p>
+        <div style="padding-bottom: 250px">
+  </div>
+
+
+  <!-- News + Updates -->
+  <div class="w3-container" id="work" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-indigo"><b>Work Experiance</b></h1>
+    <hr style="width:50px;border:5px solid indigo" class="w3-round">
+
+    <div class="my_project">
+      <img class="project_image" src="./images/osu.png" alt="Oregon State University Icon">
+      <h2 class="project_title">Graduate Teaching Assistant</h2>
+      <h3>2019 - Present </h3>
+        <p class="w3-large"><b>Oregon State University College of Engineering</b></br>
+        <ul>
+         <li>CS 361  Software Enginerring I (FALL 2019) </li>
+         <li>CS 493  Cloud Application Development (SPRING 2019) </li>
+         <li>CS 340  Introduction To Databases (WINTER 2019)</li>
+        </ul>
+      </p>
+      
+    </div>
+
+
+    <div class="my_project">
+      <img class="project_image" src="./images/osu.png" alt="Oregon State University Icon">
+      <h2 class="project_title">Graduate Research Assistant</h2>
+      <h3>2018 - Present </h3> 
+      <p class="w3-large"><b>Oregon State University College of Engineering</b></br>
+        <ul>
+          <li> Collaborator and Content Manager – Open source GitHub Project GenderMag Recorder’s Assistant Tool (chrome
+                extension) freely available on Google Chrome Web Store</li>
+          <li>Designed Poster and Submitted showpiece Paper on GenderMag Recorder’s Assistant Tool at VL/HCC Conference
+              2018, Lisbon, Portugal. (https://ieeexplore.ieee.org/document/8506505)</li>
+              <li>Reduce the process time by developing a web application for customizing GenderMag persona. (Gendermag.org)</li>
+        </ul>
+      
+    </div>
+
+    <div class="my_project">
+      <img class="project_image" src="./images/osu.png" alt="Oregon State University Icon">
+      <h2 class="project_title">Information Techonology Assistant</h2>
+      <h3>2018 </h3> 
+      <p class="w3-large"><b>Oregon State University College of Pharmacy</b><br>
+        <ul>
+          <li>Developed and updated the web contents of College of pharmacy website for optimal speed and performance.</li>
+          <li>Worked on web-based faculty activity reporting solution tool Digital measures.</li>
+        </ul>
+      </p>
+      
+    </div>
+
+    
+     <div class="my_project">
+      <img class="project_image" src="./images/ecw.png" alt="Eclinicalworks Icon">
+      <h2 class="project_title">Software Specialist</h2>
+      <h3>2014 - 2016 </h3> 
+      <p class="w3-large"><b>EclinicalWorks</b><br>
+      <ul>
+        <li>Responsible for E2E software flow from client requirement gathering, decision making, development</li>
+        <li>Designed application web pages using web technologies (JSP, JS, JSON, core java)</li>
+        <li>Deployment (App and DB cloud), configuration, Datacenter monitoring for client till Go live period</li>
+        <li>Responsible for DB recovery, App support, troubleshooting complex integration issues, Documentation</li>
+        <li>Responsible for reporting services implementation on Windows & Linux using IBM Cognos Analytic Framework.</li>
+      </ul>      
+    </div>
+
+    
+  </div>
+
+  
+
+  <!-- Projects -->
+  <div class="w3-container" id="projects" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-indigo"><b>Projects.</b></h1>
+    <hr style="width:50px;border:5px solid indigo" class="w3-round">
+
+    <br/>
+
+    <div class="my_project">
+      <img class="project_image" src="./images/gm_profile_pic.png" alt="Headshots of four people arranged in a square">
+      <h2 class="project_title">The GenderMag Recorder's Assistant </h2>
+      <h3>2018 - present</h3></br>
+      <ul>
+        <li>The GenderMag Recorder’s Assistant is a tool to identify gender - inclusiveness issues in software.</li>
+        <li>GenderMag is a process you can use to find gender biases in user-facing software that you are designing/building. The GenderMag Recorder’s Assistant semi-automates using this process. </li>
+        <li>It is easy to use and can be used by software engineers to management to usability experts.</li>
+      </ul>
+      <p>Quick links: 
+        <a class="w3-text-blue w3-hover-text-blue-gray" href="https://chrome.google.com/webstore/detail/gendermag-recorders-assis/efacfbjnfhfaplaglplaljdleimiiflf" target="_blank">Chrome Extension</a>
+        | <a class="w3-text-blue w3-hover-text-blue-gray" href="https://github.com/mendezc1/GenderMagRecordersAssistant" target="_blank">GitHub Code</a> 
+        | <a class="w3-text-blue w3-hover-text-blue-gray" href="https://ieeexplore.ieee.org/document/8506505" target="_blank">Short paper</a> 
+         
+      </p>
+      
+    </div>
+    
+
+     <div class="my_project">
+      <img class="project_image" src="./images/gm_profile_pic.png" alt="Headshots of four people arranged in a square">
+      <h2 class="project_title">The GenderMag Persona Tool</h2>
+      <h3>2018</h3></br>
+         <ul>
+           <li>The GenderMag method (Gender Inclusiveness Magnifier)  currently has three personas: Abi, Pat, and Tim.</li>
+           <li>All three persona is Different in several ways: their Motivations to use the software, Information Processing Styles, Computer Self-Efficacy, Attitudes toward Risk, and style of learning new technologies </li>
+           <li>For each GenderMag Session team selects a one persona out of three and Everyone in the room will "become" the same persona. All three persona are customizable with this tool and the team can use the persona as it is or they can customize based on need.</li>
+         </ul>
+        <p>Quick links: 
+        <a class="w3-text-blue w3-hover-text-blue-gray" href="http://gendermag.org/customPersona.html" target="_blank">Live demo</a>
+        | <a class="w3-text-blue w3-hover-text-blue-gray" href="https://github.com/Brijbhuva/GenderMagPersonaTool" target="_blank">GitHub Code</a> 
+        
+         
+      </p>
+    </div>
+
+
+     <div class="my_project">
+      <img class="project_image" src="./images/ux.png" alt="User Experiance">
+      <h2 class="project_title">Improving Usability- IRB OSU Website</h2>
+      <h3>2018</h3></br>
+          <p>Persona, Balsamiq, Heuristic Evaluation, Interviews, Usability testing</p>
+          <ul>
+            <li>Enhanced usability and efficiency of Institutional Review Board (IRB) site by reducing steps</li>
+              <li>Created a persona, identified a match for the persona and interviewed the individual</li>
+                <li>Implemented heuristic evaluation to understand various user flows</li>
+                  <li>Built lo-fi and hi-fi prototypes and conducted user testing</li>
+          </ul>
+    </div>
+
+        <div class="my_project">
+      <img class="project_image" src="./images/software.png" alt="Coding Project">
+      <h2 class="project_title">Soccer Player Statistics (Data Analytics)</h2>
+      <h3>2018</h3></br>
+          <ul>
+            <li>Data cleaning on raw Kaggle csv files and dumping of all data into SQL environment for future processing.</li>
+              <li>Created web application based on Data analytics forecasting best player and player position on ground (Node.js)</li>
+          </ul>
+    </div>
+
+    <br/>
+
+    
+
+  </div>
+  
+  <!-- Pubs -->
+  <div class="w3-container" id="pubs" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-indigo"><b>Publications.</b></h1>
+    <hr style="width:50px;border:5px solid indigo" class="w3-round">
+
+    <h2>Papers</h2>
+
+    <h3>2018</h3>
+
+    <div class="my_paper">
+      <div class="paper_title w3-large w3-text-blue w3-hover-text-blue-gray"><a href="./papers/vlhcc18-toolShowpiece.pdf" target="_blank"><b>The GenderMag Recorder’s Assistant </b></a></div>
+      <div class="paper_authors w3-large">Christopher Mendez, Andrew Anderson, <span class="w3-text-indigo"><b>Brijesh Bhuva</b></span>, Margaret Burnett (2018)</div>
+      <div class="paper_details">IEEE Symposium on Visual Languages and Human-Centric Computing, October 2018, 2 pages.</div>
+      <div class="paper_blurb w3-text-grey"><i>Building software systems is hard work, with challenges ranging from technical issues to usability issues. If the technical issues are not addressed, the software cannot work but if the usability issues are not addressed, many potential users and customers are not even interested in whether it works. Further, usability must be inclusive: software needs to support diverse sorts of users. To help software professionals address gender-inclusive usability, we have created the GenderMag Recorder's Assistant tool. This Open Source tool is the first to semi-automate evaluating gender biases in software that is being designed, developed, or maintained. In this showpiece, we will demo the tool and encourage attendees to get involved in using it and improving upon it.</i></div>
+    </div>
+
+    <br/>
+
+    
+<div style="padding-bottom: 500px">
+  
+
+  </div>
+
+  <!-- Awards 
+  <div class="w3-container" id="awards" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-indigo"><b>Certifications</b></h1>
+    <hr style="width:50px;border:5px solid indigo" class="w3-round">
+
+
+    <div class="my_project">
+      <img class="project_image" src="./images/citi.png" alt="CITI Program, A Division of BRANY">
+      <h2 class="project_title">CITI Program, A Division of BRANY</h2>
+      <h3>2018 - present</h3>
+      <ul>
+        <li>
+         <b> IRB (Institutional Review Board) Certification - Human Research</b>
+        </li>
+        <li>
+          Responsible Conduct of Research for Engineers
+        </li>
+      </ul>
+      
+    </div>
+
+
+    <div class="my_project">
+      <img class="project_image" src="./images/Google.png" alt="CITI Program, A Division of BRANY">
+      <h2 class="project_title">Google</h2>
+      <h3>2018 - present</h3></br>
+      <ul>
+        <li>
+         <b> Power Searching With Google Course</b>
+        </li>
+        <li>
+          Google Cloud On Board - Fundamentals
+      </ul>
+      
+    </div>
+
+
+
+
+
+  
+
+  </div>
+
+  -->
+
+
+
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-indigo"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid indigo" class="w3-round">
+    <p>
+      <h3>Email: <a href="mailto:brijbhuva@gmail.com" target="_blank">brijbhuva@gmail.com</a> </h3>
+      Email is the best way to get in touch with me.  
+    </p>
+<p>
+<div style="padding-bottom: 30px">
+</div>
+</p>
+    <p>
+      <h3>Online profiles</h3>
+      <ul>
+        <li>Twitter: <a href="https://twitter.com/brijbhuva" target="_blank">@brijbhuva</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/brijbhuva/" target="_blank">brijbhuva</a></li>
+        <li>GitHub: <a href="https://github.com/brijbhuva" target="_blank">brijbhuva</a></li>
+      </ul>
+    </p>
+    <div style="padding-bottom: 30px">
+    </div>
+    <p>
+      <h3>Office</h3>
+      <a href="https://map.oregonstate.edu/?building=KEC" target="_blank">Kelly Engineering Center</a> Oregon State University
+    </p>
+  </div>
+         <div style="padding-bottom: 80px">
+
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+	<p class="w3-right">
+		<a href="https://twitter.com/brijbhuva" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a> &nbsp;
+		<a href="https://www.linkedin.com/in/brijbhuva/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a> &nbsp;
+    <a href="https://github.com/brijbhuva" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a> &nbsp;
+    <a href="mailto:brijbhuva@gmail.com" target="_blank"><i class="fa fa-envelope w3-hover-opacity"></i></a> &nbsp;
+		&nbsp; &nbsp;
+		&copy; Brijesh Bhuva 2019
+	</p>
+</div>
+
+</body>
+</html>
