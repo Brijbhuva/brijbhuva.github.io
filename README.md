@@ -1,5 +1,3 @@
 # BRIJESH BHUVA
 
-<img src="maxresdefault-1.jpg" alt="hi" class="inline"/>
-
-!
+[Personal Website](https://brijbhuva.github.io/)
